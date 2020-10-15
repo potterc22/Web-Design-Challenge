@@ -4,33 +4,44 @@
       <meta charset="UTF-8">
       <title>Bootstrap Components</title>
       <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
+      <link rel="stylesheet" href="../assets/css/style.css">
     </head>
 <body>
-    <div>
-        <!-- As a link -->
-        <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light" style="background-color: #3aa89a;">
-            <a class="navbar-brand" href="index.html">Latitude</a>
-            <ul class="navbar-nav mr-auto">
+
+    <!-- As a link -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <!-- Landing page button in nav -->
+        <a class="navbar-brand" href="#">Latitude</a>
+        <!-- Added the hamburger menu button in the top right corner when the screen is shrunk down -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <!-- Added navigation options to navbar-->
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <!-- Create dropdown navbar option for plots -->
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Plots
-                      </a>
-                      <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            Plots
+                    </a>
+                    <!-- drowpdown menu options -->
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                         <a class="dropdown-item" href="#">Latitude vs Max Temperature</a>
                         <a class="dropdown-item" href="#">Latitude vs Humidity</a>
                         <a class="dropdown-item" href="#">Latitude vs Cloudiness</a>
                         <a class="dropdown-item" href="#">Latitude vs Wind Speed</a>
-                      </div>
+                    </div>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Comparison</a>
+                    <a class="nav-link" href="#">Comparison</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Data</a>
+                    <a class="nav-link" href="#">Data</a>
                 </li>
             </ul>
-        </nav>
-    </div>
+        </div>
+    </nav>
+    
     <script src="../assets/js/jquery-3.3.1.slim.min.js"></script>
     <script src="../assets/js/bootstrap.bundle.min.js"></script>
 </body>
