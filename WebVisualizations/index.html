@@ -8,8 +8,27 @@
 <body>
     <div>
         <!-- As a link -->
-        <nav class="navbar sticky-top navbar-light bg-light" style="background-color: #3aa89a;">
+        <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light" style="background-color: #3aa89a;">
             <a class="navbar-brand" href="index.html">Latitude</a>
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Plots
+                      </a>
+                      <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="#">Latitude vs Max Temperature</a>
+                        <a class="dropdown-item" href="#">Latitude vs Humidity</a>
+                        <a class="dropdown-item" href="#">Latitude vs Cloudiness</a>
+                        <a class="dropdown-item" href="#">Latitude vs Wind Speed</a>
+                      </div>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Comparison</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Data</a>
+                </li>
+            </ul>
         </nav>
     </div>
     <script src="../assets/js/jquery-3.3.1.slim.min.js"></script>
