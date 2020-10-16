@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <title>Cory Potter - Web Design Challenge</title>
+      <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
+      <link rel="stylesheet" href="../assets/css/style.css">
+    </head>
+<body>
+    <!-- As a link -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-info navbar-fixed-top">
+        <!-- Landing page button in nav -->
+        <a class="active navbar-brand" href="index.html">Latitude</a>
+        <!-- Added the hamburger menu button in the top right corner when the screen is shrunk down -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <!-- Added navigation options to navbar-->
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <!-- Create dropdown navbar option for plots -->
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbardrop" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Plots
+                    </a>
+                    <!-- drowpdown menu options -->
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="https://www.espn.com/fantasy/football/">Latitude vs Max Temperature</a>
+                        <a class="dropdown-item" href="#">Latitude vs Humidity</a>
+                        <a class="dropdown-item" href="#">Latitude vs Cloudiness</a>
+                        <a class="dropdown-item" href="#">Latitude vs Wind Speed</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="comparison.html">Comparison</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Data</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+
+
+
+
+    <div class="container">
+
+        <!-- Row 1 -->
+        <div class="row">
+            <div class="left col col-lg-8 col-md-8 col-sm-12">
+                <h1>Cloudiness</h1>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="../assets/js/jquery-3.5.1.slim.min.js"></script>
+    <script src="../assets/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+</body>
+</html>
