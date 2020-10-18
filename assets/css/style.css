@@ -34,11 +34,10 @@ body {
     padding-left: 30px;
     padding-right: 20px;
     line-height: 30px;
-    padding-bottom: 20px;
+
 }
 
 .sidebar {
-    width: 50%;
     background-color: white;
     padding-left: 20px;
 }
