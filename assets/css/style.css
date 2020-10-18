@@ -34,7 +34,7 @@ body {
     padding-left: 30px;
     padding-right: 20px;
     line-height: 30px;
-    
+    padding-bottom: 20px;
 }
 
 .sidebar {
@@ -77,3 +77,4 @@ hr {
     text-align: center;
     padding-bottom: 20px;
 }
+
