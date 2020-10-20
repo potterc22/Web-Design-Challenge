@@ -55,18 +55,12 @@ body {
    margin-bottom: 20px;
  }
 
-img {
-   width: 100%;
-   height: 100%;
+.img-thumbnail {
+    border: none;
 }
 
 hr {
     padding-bottom: 20px;
-}
-
-.thumbnail {
-    width: 150px;
-    height: 150px;
 }
 
 .caption {
@@ -84,3 +78,8 @@ hr {
     max-height: 100%;
     margin-bottom: 30px;
 }
+
+.img-thumbnail.active {
+    border: 3px solid rgb(37, 151, 172);
+}
+
